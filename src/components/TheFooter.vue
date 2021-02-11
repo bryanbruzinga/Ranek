@@ -6,8 +6,8 @@
 
 <script>
 export default {
-    name: 'TheFooter'
-}
+  name: "TheFooter",
+};
 </script>
 
 <style scoped>
@@ -20,5 +20,4 @@ footer {
   position: relative;
   top: 75px;
 }
-
 </style>

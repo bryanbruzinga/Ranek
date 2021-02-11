@@ -2,32 +2,35 @@
   <div id="app">
     <TheHeader />
     <main id="main">
-      <router-view/>
+      <router-view />
     </main>
     <TheFooter />
   </div>
 </template>
 
 <script>
-
-import TheHeader from '@/components/TheHeader.vue'
-import TheFooter from '@/components/TheFooter.vue'
+import TheHeader from "@/components/TheHeader.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 export default {
-    components: {
-      TheHeader,
-      TheFooter
-    }
-}
+  components: {
+    TheHeader,
+    TheFooter,
+  },
+};
 </script>
 
 <style>
-
 * {
   box-sizing: border-box;
 }
 
-body, ul, li, h1, h2, p {
+body,
+ul,
+li,
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -37,9 +40,9 @@ ul {
 }
 
 body {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   color: #345;
-  background: url('./assets/pattern.svg') repeat top;
+  background: url("./assets/pattern.svg") repeat top;
 }
 
 a {
@@ -63,7 +66,7 @@ img {
   box-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
   transition: all 0.3s;
   border: none;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   cursor: pointer;
 }
 
@@ -81,5 +84,4 @@ img {
 #main {
   flex: 1;
 }
-
 </style>
