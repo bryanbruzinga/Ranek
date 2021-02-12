@@ -2,7 +2,9 @@
   <div id="app">
     <TheHeader />
     <main id="main">
-      <router-view />
+      <transition mode="out-in">
+        <router-view />
+      </transition>
     </main>
     <TheFooter />
   </div>
@@ -121,5 +123,9 @@ textarea:focus {
 .v-enter-active,
 .v-leave-active {
   transition: all .3s;
+}
+
+label {
+  margin-bottom: 5px;
 }
 </style>
