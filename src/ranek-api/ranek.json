@@ -1,4 +1,50 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "",
+      "vendedor_id": "bryan@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "bryan@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "",
+        "rua": "",
+        "numero": "",
+        "bairro": "",
+        "cidade": "",
+        "estado": ""
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "Hellsing@pensylvania.com",
+      "vendedor_id": "bryan@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "bryan@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "86810130",
+        "rua": "Rua Benevides Mesquita",
+        "numero": "66",
+        "bairro": "Jardim Iguatemi",
+        "cidade": "Apucarana",
+        "estado": "PR"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "bryan@origamid.com",
@@ -23,6 +69,18 @@
       "bairro": "Santo Agostinho",
       "cidade": "Volta Redonda",
       "estado": "RJ"
+    },
+    {
+      "id": "Hellsing@pensylvania.com",
+      "nome": "Alucard",
+      "email": "Hellsing@pensylvania.com",
+      "senha": "123",
+      "cep": "86810130",
+      "rua": "Rua Benevides Mesquita",
+      "numero": "66",
+      "bairro": "Jardim Iguatemi",
+      "cidade": "Apucarana",
+      "estado": "PR"
     }
   ],
   "produto": [
