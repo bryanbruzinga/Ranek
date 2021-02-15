@@ -10,6 +10,18 @@
       "numero": "77",
       "estado": "PR",
       "cidade": "Apucarana"
+    },
+    {
+      "id": "youtube@hotmail.com",
+      "nome": "banlist",
+      "email": "youtube@hotmail.com",
+      "senha": "123",
+      "cep": "27210150",
+      "rua": "Rua Mil e Quarenta e Quatro",
+      "numero": "233",
+      "bairro": "Santo Agostinho",
+      "cidade": "Volta Redonda",
+      "estado": "RJ"
     }
   ],
   "produto": [
