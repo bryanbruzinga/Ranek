@@ -43,6 +43,28 @@
         "estado": "PR"
       },
       "id": 2
+    },
+    {
+      "comprador_id": "bryan@origamid.com",
+      "vendedor_id": "bryan@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "bryan@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Lugar Nenhum",
+        "numero": "77",
+        "bairro": "Pavilhão 9",
+        "cidade": "Apucarana",
+        "estado": "PR"
+      },
+      "id": 3
     }
   ],
   "usuario": [
