@@ -2,14 +2,15 @@
   "usuario": [
     {
       "id": "bryan@origamid.com",
-      "email": "bryan@origamid.com",
       "nome": "Bryan da Silva",
+      "email": "bryan@origamid.com",
       "senha": "123",
-      "rua": "Rua Lugar Nenhum",
       "cep": "12345678",
+      "rua": "Rua Lugar Nenhum",
       "numero": "77",
-      "estado": "PR",
-      "cidade": "Apucarana"
+      "bairro": "Pavilhão 9",
+      "cidade": "Apucarana",
+      "estado": "PR"
     },
     {
       "id": "youtube@hotmail.com",
