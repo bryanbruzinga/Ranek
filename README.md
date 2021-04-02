@@ -2,8 +2,6 @@
 
 <h2>Projeto de um E-commerce criado durante o curso de Vue Js2</h2>
 
-<p>🚧Site em processo de finalização.🚧</p>
-
 <p>Projeto criado como projeto final do curso de Vue Js2 da <a href="https://www.origamid.com/">Origamid</a>, foram usados conceitos como Hooks, Lifecycles,
 components, entre outros, colocando todos os conhecimentos adquiridos no curso em prática.</p>
    
